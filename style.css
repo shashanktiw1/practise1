@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+.bgimg{
+  background-image: url("./img/unsplash_pHPzdEHN6Os.jpg");
+  height: 700px;    
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 54px;
+}
+
+.bgimg .head{display: flex;
+
+  flex-direction: column;
+color: #FFFFFF;
+
+  gap: 9px;
+}
+
+.bgimg .head1{
+  display: flex;
+  gap: 7px;
+  align-items: baseline;
+}
+
+.bgimg .head1, .bgimg .head h1{
+  font-size: 72px;
+  font-weight: 300;
+}
+
+.bgimg .head1 h3{
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.work{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  width: 100%;
+  height: 280px;
+  background-color: #161619;
+
+ 
+
+}
+
+.work h2{
+  font-size: 72px;
+  font-weight: 300;
+}
+
+.work h1{
+  font-size: 144px;
+  font-weight: 300; 
+}
+
+.work div{ display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 7px;}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  padding: 120px  120px 78px 120px;
+  width: 100%;   ;
+
+}
+
+
+.card{
+  display: flex;
+ flex-direction: column;
+  gap: 23px;
+border-radius: 10px;
+box-shadow:0px 24px 48px 0 rgba(0,0,0,0.16);
+width: 320px;
+height: 450px;
+}
+
+.card:hover{
+  width: 330px;
+height: 460px;
+}
+
+.card div{
+ padding: 0 7px 0 18px;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+}
+
+.card div h1{
+  font-size: 24px;
+  font-weight: 400;
+  text-align: initial;
+}
+
+.card div p{
+  font-size: 12px;
+  font-weight: 400;
+  text-align: initial;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+color: #FFFFFF;
+  height: 330px;
+
+}
+
+.contact{
+
+padding: 40px 120px 0 80px;
+background-color: #515603;
+}
+
+
+.about{
+
+  padding: 40px 80px 0 120px;
+  background-color: #722300;
+  }
+
+  .infopage{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .infopage h1{
+    font-size: 64px;
+    font-weight: 300;
+  } 
+
+  .infopage p{
+    font-size: 14px;
+    font-weight:300;
+  }
+
+.infopage h3{
+  font-size: 18px;
+  font-weight: 300;
+
+} 
+
+footer{
+  display: flex;
+  justify-content: center;  
+  align-items: center;  
+  color: #FFFFFF;   
+  background-color: #000000;
+  width: 100%;
+  height: 150px;
+  font-size: 12px;
+}
+
+
+/* type the code to make the website reponsive here */
